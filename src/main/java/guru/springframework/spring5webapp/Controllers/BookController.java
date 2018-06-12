@@ -10,6 +10,7 @@ public class BookController {
 
     private BookRepository bookRepository;
 
+    // autowiring constructor
     public BookController(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
